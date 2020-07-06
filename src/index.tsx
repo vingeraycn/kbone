@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Counter from './components/counter'
+import './index.less'
 
 export default function createApp() {
   const container = document.createElement('div')

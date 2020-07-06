@@ -27,7 +27,7 @@ yarn build:web
 ## 特性
 使用 react 多端开发(小程序和 Web)，基于 [kbone](https://github.com/wechat-miniprogram/kbone) 的 element 和 render。
 
-webpack、hook、es2018+、babel7+、jsx、hot reload、cli...
+webpack、hook、es2018+、babel7+、jsx、hot reload...
 
 
 ## 目录说明
