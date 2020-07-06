@@ -13,7 +13,11 @@
     "dev:web": "node scripts/start.js",
     "build:web": "cross-env PUBLIC_URL=. node scripts/build.js",
     "build:miniapp": "rimraf build/mp/common && cross-env NODE_ENV=production webpack --config scripts/webpack.mp.config.js --progress --hide-modules",
-    "fix": "eslint src --fix"
+    "fix": "eslint src --fix",
+    "upgrade-dependencies": "npx npm-check-updates -u && yarn",
+    "format": "prettier --write 'src/**/*.{ts,tsx}'",
+    "lint": "eslint ./src/**/*.{ts,tsx} --fix",
+    "cz": "git add . && git cz"
   },
   "dependencies": {
     "react": "^16.9.0",
